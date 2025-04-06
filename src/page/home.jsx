@@ -77,20 +77,29 @@ function home() {
                 lineHeight: "0.8",
                 zIndex: "9",
                 position: "relative",
-                fontFamily: "font1"
+                fontFamily: "font1",
               }}
             >
               STI
             </p>
             <p
               className="m-0 p-0 text-center fs-5"
-              style={{ color: "blue", fontWeight: "bold", fontFamily: "Nulshock" }}
+              style={{
+                color: "blue",
+                fontWeight: "bold",
+                fontFamily: "Nulshock",
+              }}
             >
               CANTEEN
             </p>
             <p className="text-center" style={{ fontStyle: "italic" }}>
               Plan your meals ahead
             </p>
+            <div className="d-flex justify-content-center">
+              <button className="btn btn-success text-center">
+                Todays Menu
+              </button>
+            </div>
           </div>
         </div>
       </section>
