@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
-import Plate1 from "../assets/plate3.jpg";
-import Plate2 from "../assets/plate1.avif";
+import Plate1 from "../assets/plate1.png";
+import Plate2 from "../assets/plate2.png";
+import Plate3 from "../assets/plate3.png";
+
 import "../style/Home.css";
+import "../style/App.css";
 
 function home() {
   // const [name, setName] = useState("");
@@ -25,7 +28,7 @@ function home() {
   return (
     <>
       <section
-        className="container-fluid p-0 p-5 border min-vh-100 align-items-center justify-content-center d-flex bg-grad"
+        className="container-fluid p-0 p-5 border min-vh-100 align-items-center justify-content-center d-flex bg-white"
         style={{ overflow: "hidden", position: "relative" }}
       >
         <div
@@ -61,27 +64,27 @@ function home() {
             left: "50%",
           }}
         >
-          <img src={Plate2} className=" img-anim"></img>
+          <img src={Plate3} className=" img-anim"></img>
         </div>
 
-        <div className="col-12 bg-white d-flex justify-content-center">
+        <div className="col-12 d-flex justify-content-center">
           <div style={{ width: "fit-content", scale: "1.4" }}>
             <p
               className="m-0 p-0 text-center"
               style={{
                 fontSize: "5rem",
-                fontFamily: "fantasy",
                 color: "yellow",
                 lineHeight: "0.8",
                 zIndex: "9",
                 position: "relative",
+                fontFamily: "font1"
               }}
             >
               STI
             </p>
             <p
               className="m-0 p-0 text-center fs-5"
-              style={{ color: "blue", fontWeight: "bold" }}
+              style={{ color: "blue", fontWeight: "bold", fontFamily: "Nulshock" }}
             >
               CANTEEN
             </p>

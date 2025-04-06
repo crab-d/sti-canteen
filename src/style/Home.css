@@ -3,7 +3,8 @@
 }
 
 .bg-grad {
-    background: radial-gradient(red, blue);
+    background: rgb(244,244,244);
+    background: linear-gradient(177deg, rgba(244,244,244,1) 0%, rgba(240,240,240,1) 63%, rgba(218,249,255,1) 100%);
 }
 
 @keyframes rotate {
