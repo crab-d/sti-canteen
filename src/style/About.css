@@ -1,0 +1,8 @@
+.popup {
+    transform: translateY(100px);
+    transition: all 1s .2s ease-in-out !important;
+}
+
+.popup.show{
+    transform: translateY(0);
+}
