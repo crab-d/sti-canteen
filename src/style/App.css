@@ -4,6 +4,10 @@
     transform: translate();
 }
 
+* {
+  scroll-margin-top: 64px;
+}
+
 @font-face {
     font-family: "font1";
     src: url("/fonts/font1.otf") format("opentype");

@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Home from "./page/home";
 import About from "./page/About";
+import Chefs from './page/Chefs';
+import Menu from "./page/Menu";
 import { Box } from "@mui/material";
 import kitchelab from "./assets/kitchenlab.jpeg";
 
@@ -12,11 +14,12 @@ function App() {
       <About />
       <Box
         sx={{
-          padding: "100px",
+          padding: "20px",
         }}
       >
-        
+        <Chefs/>
       </Box>
+      <Menu />
     </>
   );
 }

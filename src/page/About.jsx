@@ -24,7 +24,7 @@ const Popup = () => {
   }, []);
 
   return (
-    <section className="min-vh-100 bg-light" id="about">
+    <section className=" bg-light" id="about">
       <Box
         sx={{
           display: "flex",
@@ -66,10 +66,13 @@ const Popup = () => {
 
         <Box
           sx={{
-
             flex: 1,
-            display: "flex",
+            display: {
+              xs: "none",
+              sm: "block"
+            },
             alignItems: "stretch"
+          
           }}
         >
           <img
@@ -79,6 +82,7 @@ const Popup = () => {
               objectPosition: "center",
               width: "100%",
               height: "100%", 
+              
             }}
             alt="Canteen"
           />

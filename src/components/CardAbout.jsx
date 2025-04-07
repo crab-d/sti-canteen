@@ -1,6 +1,6 @@
-import { Card, CardMedia, CardContent, Typography } from "@mui/material"
+import { Card, CardContent, Typography } from "@mui/material"
 
-const CardAbout = ({image, title, subtitle}) => {
+const CardAbout = ({ title, subtitle}) => {
     return <>
         <Card className="m-5">
             

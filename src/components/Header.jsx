@@ -1,16 +1,11 @@
 import { Stack, Button, AppBar, Toolbar, Typography, Box, IconButton } from "@mui/material";
-import MenuIcon from '@mui/icons-material/Menu';
 import "../style/App.css";
+import Drawer from "./SidePanel";
 
 function Header() {
   return (
     <>
-      {/* <header className=" sticky-top">
-            <div className="p-2 bg-light m-0">
-            <p className="m-0 color-yellow p-1 fw-bold ms-4 px-3 text-primary rounded shadow-sm" style={{width: "fit-content"}}>STI CANTEEN</p>
-            </div>
-            <AppBar />
-        </header> */}
+      
       <AppBar position="sticky" className="bg-light">
         <Toolbar>
           <Typography
@@ -20,14 +15,7 @@ function Header() {
             STI EATS
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
-          <IconButton sx={{
-            display: {
-              xs: "block",
-              sm: "none",
-            }
-          }}>
-            <MenuIcon />
-          </IconButton>
+          <Drawer />
           <Stack direction="row" spacing={0} sx={{
             display: {
               xs: "none",
